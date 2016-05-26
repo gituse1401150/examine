@@ -10,5 +10,6 @@
 	<classpathentry kind="src" output="work" path="work"/>
 	<classpathentry kind="src" path="WEB-INF/src/main"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/iciql-2.1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
