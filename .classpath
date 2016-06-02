@@ -6,10 +6,12 @@
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
-	<classpathentry excluding="main/" kind="src" path="WEB-INF/src"/>
+	<classpathentry excluding="main/|main/model/test/login/|main/model/test/" kind="src" path="WEB-INF/src"/>
 	<classpathentry kind="src" output="work" path="work"/>
-	<classpathentry kind="src" path="WEB-INF/src/main"/>
+	<classpathentry excluding="model/test/login/|model/test/" kind="src" path="WEB-INF/src/main"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/iciql-2.1.1.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/iciql-1.6.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
